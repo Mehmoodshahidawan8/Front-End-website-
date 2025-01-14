@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSA Softwares</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Link to Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to AOS Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- Logo Link -->
+            <a class="navbar-brand" href="#home">
+                <img src="logo.png" alt="MSA Softwares Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-primary text-white text-center py-5" data-aos="fade-up">
+        <div class="container">
+            <h1 class="display-4">Transform Your Ideas into Reality</h1>
+            <p class="lead">Innovative software solutions for modern businesses</p>
+            <a href="#contact" class="btn btn-light btn-lg mt-4">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5" style="background-color: #f8f9fa;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-code fa-3x mb-3 text-primary"></i>
+                        <h4>Custom Software Development</h4>
+                        <p>We build tailored software solutions that fit your business needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                        <h4>Web Development</h4>
+                        <p>Developing scalable and user-friendly websites to engage your customers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+                        <h4>Mobile App Development</h4>
+                        <p>Building robust mobile apps for Android and iOS platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="background-color: #e9ecef;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>We Deliver Excellence</h4>
+                    <p>MSA Softwares is a leading software development company with a passion for creating innovative and customized software solutions. With years of experience, we help businesses streamline operations and enhance customer experiences through technology.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Resume.jpg" alt="About MSA Softwares" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="message">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg mt-4">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="mb-4">Follow Us</h2>
+            <p>Stay connected with us on social media</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@MSA01team01/videos" class="social-icon" target="_blank">
+                    <i class="fab fa-youtube fa-3x"></i>
+                </a>
+                <a href="https://www.instagram.com/mehmoodshahidawan_/" class="social-icon" target="_blank">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mehmood-shahid-awan-56018b31a/" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </a>
+                <a href="https://github.com/Mehmoodshahidawan8" class="social-icon" target="_blank">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 MSA Softwares. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>
